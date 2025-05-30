@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zapatetch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Zapatetch</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <section id="inicio">
+    <div class="inicio-contenedor">
+        <div class="texto-bienvenida">
+            <h2>Bienvenidos a la mejor tienda de zapatillas</h2>
+            <p>Explorá nuestros modelos exclusivos, diseño moderno y comodidad asegurada.</p>
+        </div>
+              <video width="600" controls autoplay loop>
+              <source src="promo-zapatillas.mp4" type="video/mp4" />
+            Tu navegador no soporta videos.
+              </video>
+        </section>
+
+        <section id="productos">
+            <h2>Productos Destacados</h2>
+            <div class="productos-container">
+                <article class="card">
+                    <img src="zapatilla1.jpg" alt="Nike Air Max" />
+                    <h3>Nike Air Max</h3>
+                    <p>Sirve como cono de transito.</p>
+                </article>
+                <article class="card">
+                    <img src="zapatilla2.jpg" alt="Nike Zoom Vomero" />
+                    <h3>Nike Zoom Vomero</h3>
+                    <p>Perfecta para correr y entrenar.</p>
+                </article>
+                <article class="card">
+                    <img src="zapatilla3.jpg" alt="Nike Dunk Low" />
+                    <h3>Nike Dunk Low</h3>
+                    <p>La unica que no se ve a 3km.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="reseñas">
+            <h2>Reseñas de Clientes</h2>
+            <div class="reseñas-grid">
+                <div class="reseña">
+                    <p>"Excelente calidad y envío rápido."</p>
+                    <strong>- Ana G.</strong>
+                </div>
+                <div class="reseña">
+                    <p>"Muy cómodas, las uso todos los días."</p>
+                    <strong>- Luis M.</strong>
+                </div>
+                <div class="reseña">
+                    <p>"Gran variedad y atención al cliente."</p>
+                    <strong>- Carla R.</strong>
+                </div>
+                <div class="reseña">
+                    <p>"Me encantaron los diseños disponibles."</p>
+                    <strong>- Pedro T.</strong>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/yourformid" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required />
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tienda de Zapatillas Talentotech. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
