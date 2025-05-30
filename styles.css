@@ -1,4 +1,4 @@
-/* Importar fuente Roboto */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -141,7 +141,7 @@ footer p {
     margin: 0;
 }
 
-/* Responsive para sección contacto */
+
 
 @media (max-width: 768px) {
     form {
@@ -166,7 +166,7 @@ footer p {
 
 .video-derecha {
     display: flex;
-    justify-content: flex-end; /* Alinea el contenido a la derecha */
+    justify-content: flex-end; 
     margin-top: 1rem;
  
 }
@@ -175,7 +175,7 @@ footer p {
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
-    flex-wrap: wrap; /* Para que se acomode en pantallas pequeñas */
+    flex-wrap: wrap; 
     margin-top: 4rem;
     margin-bottom: 8rem;
 }
@@ -200,7 +200,7 @@ h1 {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-decoration: none !important;  /* Esto quitará el subrayado */
+    text-decoration: none !important;  
 }
 
 .btn:hover {
