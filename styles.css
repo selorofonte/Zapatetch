@@ -187,3 +187,47 @@ footer p {
 h1 {
     font-size: 7rem;
     }
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: white;
+    color: #1f2937;
+    border: 2px solid #1f2937;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none !important;  /* Esto quitará el subrayado */
+}
+
+.btn:hover {
+    background-color: #f3f4f6;
+    color: #111827;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.img-btn {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.img-btn img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+.img-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
